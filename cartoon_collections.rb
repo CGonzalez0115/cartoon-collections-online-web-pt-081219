@@ -13,6 +13,7 @@ end
 def summon_captain_planet(world)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   calls = 0
+  planeteer_calls.split(",")
   planeteer_calls.each do |world|
     calls += 1
     puts "#{world}"
@@ -24,7 +25,7 @@ def summon_captain_planet(world)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   calls = 0
   planeteer_calls.join('')
-  while planeteer_calls.split(",").collect{|world| world = world.capitalize + "!"}.include?(world)
+  while planeteer_calls.collect{|world| world = world.capitalize + "!"}.include?(world)
     calls += 1
     puts "#{planeteer_calls}"
   end
