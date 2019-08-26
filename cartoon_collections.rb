@@ -10,13 +10,9 @@ def roll_call_dwarves(dwarf)
   end
 end
 
-def summon_captain_planet(world)
+def summon_captain_planet(Array)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  calls = 0
-  planeteer_calls.each do |world|
-    planeteer_calls("")
-    calls += 1
-    puts "#{world}"
+    puts "#{Arrray}"
   end
   ["earth", "wind", "fire", "water", "heart"]
 end
