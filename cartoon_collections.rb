@@ -12,7 +12,7 @@ end
 
 def summon_captain_planet(Array)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-    puts "#{Arrray}"
+    puts "#{Array}"
   end
   ["earth", "wind", "fire", "water", "heart"]
 end
