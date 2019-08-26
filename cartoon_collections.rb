@@ -17,7 +17,7 @@ def summon_captain_planet(world)
     calls += 1
     puts "#{world}"
   end
-  summon_captain_planet(planeteer_calls)
+  ["earth", "wind", "fire", "water", "heart"]
 end
 
 def summon_captain_planet(world)
